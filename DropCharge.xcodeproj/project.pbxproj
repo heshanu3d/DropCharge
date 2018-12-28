@@ -21,6 +21,7 @@
 		452AE32D21D4F10E00B6AAC2 /* Vector3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452AE32121D4F10E00B6AAC2 /* Vector3.swift */; };
 		452AE33021D4F42300B6AAC2 /* Platform5Across.sks in Resources */ = {isa = PBXBuildFile; fileRef = 452AE32F21D4F42300B6AAC2 /* Platform5Across.sks */; };
 		452AE33221D4F4EE00B6AAC2 /* CoinArrow.sks in Resources */ = {isa = PBXBuildFile; fileRef = 452AE33121D4F4EE00B6AAC2 /* CoinArrow.sks */; };
+		452BB30E21D67134008AFDD4 /* Lava.sks in Resources */ = {isa = PBXBuildFile; fileRef = 452BB30C21D67134008AFDD4 /* Lava.sks */; };
 		4569D2AE21D5B265004495BC /* Break5Across.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4569D2AD21D5B265004495BC /* Break5Across.sks */; };
 		4569D2E621D5B5D0004495BC /* BreakDiagonal.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4569D2DB21D5B5CE004495BC /* BreakDiagonal.sks */; };
 		4569D2E721D5B5D0004495BC /* CoinSArrow.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4569D2DC21D5B5CF004495BC /* CoinSArrow.sks */; };
@@ -77,6 +78,7 @@
 		452AE32121D4F10E00B6AAC2 /* Vector3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vector3.swift; sourceTree = "<group>"; };
 		452AE32F21D4F42300B6AAC2 /* Platform5Across.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Platform5Across.sks; sourceTree = "<group>"; };
 		452AE33121D4F4EE00B6AAC2 /* CoinArrow.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = CoinArrow.sks; sourceTree = "<group>"; };
+		452BB30C21D67134008AFDD4 /* Lava.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Lava.sks; sourceTree = "<group>"; };
 		4569D2AD21D5B265004495BC /* Break5Across.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Break5Across.sks; sourceTree = "<group>"; };
 		4569D2DB21D5B5CE004495BC /* BreakDiagonal.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BreakDiagonal.sks; sourceTree = "<group>"; };
 		4569D2DC21D5B5CF004495BC /* CoinSArrow.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = CoinSArrow.sks; sourceTree = "<group>"; };
@@ -172,6 +174,14 @@
 			path = "Scene Files";
 			sourceTree = "<group>";
 		};
+		452BB30B21D67076008AFDD4 /* Particles */ = {
+			isa = PBXGroup;
+			children = (
+				452BB30C21D67134008AFDD4 /* Lava.sks */,
+			);
+			path = Particles;
+			sourceTree = "<group>";
+		};
 		45B3977721D4EA53002B2E54 = {
 			isa = PBXGroup;
 			children = (
@@ -201,6 +211,7 @@
 				45B3978721D4EA54002B2E54 /* Actions.sks */,
 				45B3978521D4EA54002B2E54 /* GameScene.sks */,
 				45B3978921D4EA54002B2E54 /* GameScene.swift */,
+				452BB30B21D67076008AFDD4 /* Particles */,
 				45B3978B21D4EA54002B2E54 /* GameViewController.swift */,
 				45B3978D21D4EA54002B2E54 /* Main.storyboard */,
 				45B3979021D4EA54002B2E54 /* Assets.xcassets */,
@@ -338,6 +349,7 @@
 				452AE33221D4F4EE00B6AAC2 /* CoinArrow.sks in Resources */,
 				4569D2EF21D5B5D0004495BC /* Coin5Across.sks in Resources */,
 				45B3978F21D4EA54002B2E54 /* Main.storyboard in Resources */,
+				452BB30E21D67134008AFDD4 /* Lava.sks in Resources */,
 				4569D2EC21D5B5D0004495BC /* PlatformDiagonal.sks in Resources */,
 				4569D2ED21D5B5D0004495BC /* CoinSCross.sks in Resources */,
 				45B3978621D4EA54002B2E54 /* GameScene.sks in Resources */,
